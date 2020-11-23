@@ -278,21 +278,21 @@ html:not(.material-style) .material-style-only {
     color: #666 !important;
 }
 
-[customize-datatables] > tbody > tr > td {
+[totaa-datatables] > tbody > tr > td {
     vertical-align: middle !important;
 }
 
-[customize-datatables] > tbody > tr > td .dropdown-item.waves-effect {
+[totaa-datatables] > tbody > tr > td .dropdown-item.waves-effect {
     display: block !important;
 }
-[customize-datatables] > thead > tr > th.sorting_asc,
-[customize-datatables] > thead > tr > th.sorting_desc,
-[customize-datatables] > thead > tr > th.sorting {
+[totaa-datatables] > thead > tr > th.sorting_asc,
+[totaa-datatables] > thead > tr > th.sorting_desc,
+[totaa-datatables] > thead > tr > th.sorting {
     padding-right: 35px !important;
 }
 
-[customize-datatables] > tbody > tr > td,
-[customize-datatables] > thead > tr > th {
+[totaa-datatables] > tbody > tr > td,
+[totaa-datatables] > thead > tr > th {
     white-space: nowrap;
 }
 
