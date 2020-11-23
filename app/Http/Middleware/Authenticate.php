@@ -3,6 +3,7 @@
 namespace App\Http\Middleware;
 
 use Illuminate\Auth\Middleware\Authenticate as Middleware;
+use Illuminate\Support\Str;
 
 class Authenticate extends Middleware
 {
@@ -15,7 +16,12 @@ class Authenticate extends Middleware
     protected function redirectTo($request)
     {
         if (! $request->expectsJson()) {
-            return route('login');
+            $contains = Str::contains(url()->current(), ['forgot-password', 'login', 'logout', 'register', 'reset-password', 'user/confirm-password', 'user/password', ]);
+            if ($contains) {
+                return route('login');
+            } else {
+                return route('login', ['urlback' => url()->current()]);
+            }
         }
     }
 }
