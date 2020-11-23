@@ -6,7 +6,7 @@
 
 @section('styles')
     <!-- Page -->
-    <link rel="stylesheet" href="{{ mix('/customize/css/error.css') }}">
+    <link rel="stylesheet" href="{{ mix('/totaa/css/error.css') }}">
 @endsection
 
 @section('layout-content')
