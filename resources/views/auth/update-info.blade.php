@@ -2,7 +2,7 @@
 
 @section('styles')
     <!-- Page -->
-    <link rel="stylesheet" href="{{ mix('/customize/css/coming-soon.css') }}">
+    <link rel="stylesheet" href="{{ mix('/totaa/css/coming-soon.css') }}">
     <link rel="stylesheet" href="{{ mix('/vendor/libs/bootstrap-datepicker/bootstrap-datepicker.css') }}">
 @endsection
 
