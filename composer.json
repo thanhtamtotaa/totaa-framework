@@ -27,7 +27,8 @@
         "wildside/userstamps": "^2.1",
         "totaa/totaa-auth": "^1.1",
         "totaa/totaa-bfo": "^1.1",
-        "totaa/totaa-permission": "^1.1"
+        "totaa/totaa-permission": "^1.1",
+        "yajra/laravel-datatables": "1.5"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
