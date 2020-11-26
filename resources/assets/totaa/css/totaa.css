@@ -300,10 +300,27 @@ html:not(.material-style) .material-style-only {
     overflow: visible;
 }
 
-.col-3.action-w-50 {
+.col.action-icon-w-50 {
     max-width: 100% !important;
     min-width: 50px !important;
 }
-.action-btn:hover {
+
+.action-icon:hover {
     cursor: pointer;
+}
+
+pre {
+    font-family: inherit;
+}
+
+pre.totaa-pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    font-size: 100%;
+    color: inherit;
+    margin: 0;
+    font-family: inherit;
 }
