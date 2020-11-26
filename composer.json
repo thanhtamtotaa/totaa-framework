@@ -25,9 +25,9 @@
         "livewire/livewire": "^2.3",
         "hisorange/browser-detect": "^4.3",
         "wildside/userstamps": "^2.1",
-        "totaa/totaa-auth": "^0.5.0",
-        "totaa/totaa-bfo": "^0.0.8",
-        "totaa/totaa-permission": "^0.0.8"
+        "totaa/totaa-auth": "^1.1",
+        "totaa/totaa-bfo": "^1.1",
+        "totaa/totaa-permission": "^1.1"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
