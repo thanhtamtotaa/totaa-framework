@@ -44,4 +44,10 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    //Gửi thông tin đề yêu cầu cấp quền
+    public function yeucaucapquyen()
+    {
+        return $this->hasOne('App\Models\User\YeuCauCapQuyen', 'user_id', 'id');
+    }
 }
