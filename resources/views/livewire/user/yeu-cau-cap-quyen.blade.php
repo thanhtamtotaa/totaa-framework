@@ -57,6 +57,19 @@
     <!-- Scripts -->
     @push('livewires')
         <script>
+            //Xử lý khi dữ liệu đã được load xong
+            document.addEventListener("DOMContentLoaded", () => {
+                Livewire.hook("message.processed", (message, component) => {
+                    $.unblockUI();
+
+                    if ($("input.datepicker-totaa").length != 0) {
+                        $("input.datepicker-totaa").each(function(e) {
+                            $(this).datepicker('update');
+                        });
+                    }
+                });
+            });
+
             if ($("input.datepicker-totaa").length != 0) {
                 $("input.datepicker-totaa").each(function(e) {
                     $(this)
