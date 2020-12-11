@@ -40,7 +40,7 @@
             </div>
 
             <div class="col-12 mb-3" id="ngaythuviec_div">
-                <input type="text" wire:model="ngaythuviec" startview-totaa="0" container-totaa="ngaythuviec_div" class="datepicker-totaa form-control px-2 form-control-lg form-control-inverted font-secondary" readonly placeholder="Ngày thử việc...">
+                <input type="text" wire:model="ngaythuviec" startview-totaa="0" container-totaa="ngaythuviec_div" class="datepicker-totaa form-control px-2 form-control-lg form-control-inverted font-secondary" readonly placeholder="Ngày vào làm...">
                 @error('ngaythuviec')
                     <label class="pl-1 mb-0 small invalid-feedback d-inline-block" ><i class="fas mr-1 fa-exclamation-circle"></i>{{ $message }}</label>
                 @enderror
