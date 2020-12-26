@@ -94,6 +94,7 @@
     @livewireScripts
     <!-- Application javascripts -->
     <script src="{{ mix('/js/application.js') }}"></script>
+    <script src="{{ asset('vendor/datatables/buttons.server-side.js') }}"></script>
     @stack('datatables')
     @stack('livewires')
 </body>
